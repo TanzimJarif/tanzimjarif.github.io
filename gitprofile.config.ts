@@ -152,7 +152,6 @@ const CONFIG = {
     },
   ],
   // Display articles from your medium or dev account. (Optional)
-  blog: , 
   themeConfig: {
     defaultTheme: 'sunset',
 
