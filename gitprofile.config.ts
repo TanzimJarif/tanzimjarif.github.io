@@ -28,7 +28,7 @@ const CONFIG = {
         projects: ['tanzimjarif/relative-humidity-forecasting-mlops'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
-    external: {/*
+    external: {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
@@ -49,7 +49,7 @@ const CONFIG = {
           link: 'https://example.com',
         },
       ],
-   */ },
+    },
   },
   seo: { title: 'Portfolio of Sarker Tanzim', description: '', imageURL: '' },
   social: {
