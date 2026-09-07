@@ -28,7 +28,7 @@ const CONFIG = {
         projects: ['tanzimjarif/relative-humidity-forecasting-mlops'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
-    external: {
+    external: {/*
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
@@ -49,7 +49,7 @@ const CONFIG = {
           link: 'https://example.com',
         },
       ],
-    },
+   */ },
   },
   seo: { title: 'Portfolio of Sarker Tanzim', description: '', imageURL: '' },
   social: {
@@ -110,7 +110,7 @@ const CONFIG = {
   certifications: [
     {
       name: 'Probability',
-      body: 'Lorem ipsum dolor sit amet',
+      body: 'MITx',
       year: 'March 2025',
       link: '',
     },
@@ -134,19 +134,19 @@ const CONFIG = {
       title: 'Analysis of spatial data and time series for predicting magnitude of seismic zones in Bangladesh',
       conferenceName: 'Artificial Intelligence and Algorithms in Intelligent Systems',
       journalName: 'Springer International Publishing',
-      authors: 'S. Md Tanzim, S. Yeasmin, M. A. Hussain, T. M. Rezoan Tamal, R. Hasan, T. Rahman, and R. M. Rahman',
-      link: 'https://example.com',
+      authors: 'S. Md Tanzim, S. Yeasmin, M. A. Hussain, T. M. Rezoan Tamal, R. Hasan, T. Rahman, R. M. Rahman',
+      link: 'https://link.springer.com/chapter/10.1007/978-3-319-91189-2_36',
       description:
         'The paper demonstrates the use of clustering to find different sensitive seismic zones and time series for earthquake hazard prediction. Anticipating seismic activities using previous historical data is achieved by applying hierarchical, k-means, and density-based clustering. The clustered data is used in linear regression to build a predictive model for forecasting upcoming earthquakes’ magnitudes for different regions in and nearby areas of Bangladesh.',
     },
     {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      title: 'Income-based food list recommendation for rural people using fuzzy logic',
+      conferenceName: '2018 IEEE/ACIS 17th International Conference on Computer and Information Science (ICIS)',
+      journalName: 'IEEE',
+      authors: '3.	M. A. Hussain, S. Yeasmin, S. Chowdhury, F. R. Wasee, S. Afrin, S. M. Tanzim, R. M. Rahman',
+      link: 'https://ieeexplore.ieee.org/document/8466403/',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'The paper proposes a fuzzy logic based food recommendation with the concepts of BMI (Body Mass Index), age, recommended nutrients and income. In Bangladesh, most of the people are suffering from malnutrition as they have no clear idea about food nutrition and the case is worse in the rural area due to low income of people are living there. We have developed a fuzzy model that recommends addition or reduction of food items in daily food habit that meets nutritional needs and budget limits of rural people in the context of Bangladesh. Since people have variations in their food intake, we have focused mostly in their nutritional imbalances to find the appropriate food groups that can be suggested. Local food items have been checked and divided into low and high cost categories. By fuzzifying different parameters, a recommended food list is presented that will consider both the income and preference level of rural people.',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
