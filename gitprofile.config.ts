@@ -95,14 +95,14 @@ const CONFIG = {
     {
       company: 'YSD Consultant',
       position: 'Data Scientist',
-      from: 'September 2021',
+      from: 'November 2021',
       to: 'June 2025',
       companyLink: '',
     },
     {
       company: 'Service Engine',
       position: 'Software Engineer',
-      from: 'July 2019',
+      from: 'November 2019',
       to: 'August 2021',
       companyLink: 'https://example.com',
     },
@@ -137,7 +137,7 @@ const CONFIG = {
       authors: 'S. Md Tanzim, S. Yeasmin, M. A. Hussain, T. M. Rezoan Tamal, R. Hasan, T. Rahman, and R. M. Rahman',
       link: 'https://example.com',
       description:
-        'The paper demonstrates the use of clustering to find different sensitive seismic zones and time series for the earthquake hazard prediction. Anticipating seismic activities using previous history data is obtained by applying hierarchical, k-means and density based clustering. Data is collected first and then clustered. Finally, the clustered data is used to obtain the different seismic zones on map. On the top of that data is used in linear regression to build a predictive model for forecasting upcoming earthquakes’ magnitudes for different regions in and nearby areas of Bangladesh.',
+        'The paper demonstrates the use of clustering to find different sensitive seismic zones and time series for earthquake hazard prediction. Anticipating seismic activities using previous historical data is achieved by applying hierarchical, k-means, and density-based clustering. The clustered data is used in linear regression to build a predictive model for forecasting upcoming earthquakes’ magnitudes for different regions in and nearby areas of Bangladesh.',
     },
     {
       title: 'Publication Title',
