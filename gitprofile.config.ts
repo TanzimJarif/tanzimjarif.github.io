@@ -53,7 +53,7 @@ const CONFIG = {
   },
   seo: { title: 'Portfolio of Sarker Tanzim', description: '', imageURL: '' },
   social: {
-    linkedin: 'sm-tanzim/',
+    linkedin: 'sm-tanzim',
     x: '',
     mastodon: '',
     researchGate: '',
@@ -65,14 +65,14 @@ const CONFIG = {
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     discord: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: '',
     phone: '',
-    email: '',
+    email: 'tanzim.jarif632gmail.com',
   },
   resume: {
     fileUrl:
@@ -93,15 +93,15 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
+      company: 'YSD Consultant',
+      position: 'Data Scientist',
       from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      to: 'June 2025',
+      companyLink: '',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
+      company: 'Service Engine',
+      position: 'Software Engineer',
       from: 'July 2019',
       to: 'August 2021',
       companyLink: 'https://example.com',
@@ -109,35 +109,35 @@ const CONFIG = {
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
+      name: 'Probability',
       body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      year: 'March 2025',
+      link: '',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'University of Sussex',
+      degree: 'MSc in Data Science',
+      from: '2023',
+      to: '2024',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'North South University',
+      degree: 'BSc in CSE',
+      from: '2014',
+      to: '2019',
     },
   ],
   publications: [
     {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
+      title: 'Analysis of spatial data and time series for predicting magnitude of seismic zones in Bangladesh',
+      conferenceName: 'Artificial Intelligence and Algorithms in Intelligent Systems',
+      journalName: 'Springer International Publishing',
+      authors: 'S. Md Tanzim, S. Yeasmin, M. A. Hussain, T. M. Rezoan Tamal, R. Hasan, T. Rahman, and R. M. Rahman',
       link: 'https://example.com',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'The paper demonstrates the use of clustering to find different sensitive seismic zones and time series for the earthquake hazard prediction. Anticipating seismic activities using previous history data is obtained by applying hierarchical, k-means and density based clustering. Data is collected first and then clustered. Finally, the clustered data is used to obtain the different seismic zones on map. On the top of that data is used in linear regression to build a predictive model for forecasting upcoming earthquakes’ magnitudes for different regions in and nearby areas of Bangladesh.',
     },
     {
       title: 'Publication Title',
